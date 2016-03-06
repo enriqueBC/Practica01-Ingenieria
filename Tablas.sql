@@ -1,0 +1,8 @@
+CREATE TABLE Usuario (
+	correo			VARCHAR(200) PRIMARY KEY,
+	nombreUsuario	VARCHAR(100)
+);
+
+CREATE TABLE Pais (
+	nombrePais	VARCHAR(200) PRIMARY KEY
+);
